@@ -266,6 +266,10 @@
             color: #555;
         }
 
+        .experience-item li:first-child {
+            padding-left: 0;
+        }
+
         .experience-item li::before {
             content: '→';
             position: absolute;
@@ -273,7 +277,9 @@
             color: #667eea;
             font-weight: bold;
         }
-
+        .experience-item li:first-child::before {
+            content: '';
+        }
         /* Education Section */
         #education ul {
             list-style: none;
